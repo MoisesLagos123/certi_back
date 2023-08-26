@@ -10,6 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/generos")
+@CrossOrigin("http://localhost:4200")
 public class GeneroController {
 
     private final GeneroService generoService;

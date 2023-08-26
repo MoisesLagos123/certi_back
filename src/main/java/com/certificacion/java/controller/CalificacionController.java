@@ -11,6 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/calificaciones")
+@CrossOrigin("http://localhost:4200")
 public class CalificacionController {
     private final CalificacionService calificacionService;
     @Autowired
